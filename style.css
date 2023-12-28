@@ -67,6 +67,15 @@ body {
    height: 100%;
 }
 
+#dp {
+   border-radius: 20px;
+   margin-left: 17.5px;
+}
+
+#title-container {
+   margin-left: 20px;
+}
+
 #hello {
    font-family: Bradley Hand, cursive;
    font-size: 25px;
@@ -139,5 +148,9 @@ body {
 }
 
 .experience-cmpy {
+   color: white;
+}
+
+a {
    color: white;
 }
