@@ -1,0 +1,143 @@
+/* body styling -- generic */
+
+* {
+   box-sizing: border-box;
+   margin: auto;
+}
+
+body {
+   background-color: black;
+   color: white;
+   padding: 0;
+   margin: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#translucent-bg {
+   position: absolute;
+   top: 10%;
+   left: 10%;
+   width: 80%;
+   min-height: 80%;
+   max-height: min-content;
+   background-color: rgba(255, 255, 255, 0.175);
+   /* opacity: 0.35; */
+   border-radius: 10px;
+   /* box-shadow: 0 15px 20px rgba(255, 255, 255, 0.823); */
+   z-index: -1;
+}
+
+#body-container {
+   /* background-color: rgba(255, 255, 255, 0.75); */
+   border-radius: 5px;
+   padding: 5%;
+   width: 95%;
+   height: 100%;
+
+}
+
+@media screen and (max-width: 600px) {
+   .column {
+     width: 100%;
+   }
+}
+
+.links {
+   margin: 3%;
+   display: grid;
+   grid-auto-rows: 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 10px;
+}
+
+#title {
+   font-family: Optima, sans-serif;
+   font-size: 35px;
+   color: white;
+   text-align: center;
+}
+
+#introduction {
+   display: flex;
+   font-family: Optima, sans-serif;
+   align-items: center;
+   justify-content: space-around;
+   height: 100%;
+}
+
+#hello {
+   font-family: Bradley Hand, cursive;
+   font-size: 25px;
+
+}
+
+#title-container {
+   padding-left: 10px;
+}
+
+#title-container {
+   color: white;
+}
+
+.section {
+   margin: 3%;
+   font-family: Optima, sans-serif;
+   /* border: 1px solid white; */
+}
+
+.sup-name {
+   text-decoration: none;
+   font-weight: normal;
+}
+
+.skill-lst {
+   text-decoration: none;
+   font-weight: normal;
+}
+
+.company {
+   height: 100%;
+   padding: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.experience-img {
+   padding-right: 35px;
+}
+
+.club-img {
+   padding-right: 35px;
+}
+
+.header-space {
+   padding-bottom: 10px;
+   /* font-family: Apple Chancery, cursive; */
+   font-family: Optima, sans-serif;
+   font-size: 25px;
+   background-color: rgba(0, 0, 0, 0.367);
+   border: 1px solid white;
+   border-radius: 5px;
+   padding: 1%;
+   margin: 10px;
+   text-align: center;
+}
+
+.club {
+   display: flex;
+   padding: 20px;
+   align-items: center;
+   justify-content: center;
+   float: left;
+}
+
+.frc-img {
+   padding-top: 10px;
+}
+
+.experience-cmpy {
+   color: white;
+}
