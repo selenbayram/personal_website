@@ -62,32 +62,30 @@ body {
 #introduction {
    display: flex;
    font-family: Optima, sans-serif;
-   align-items: center;
-   justify-content: space-around;
+   /* align-items: center; */
+   /* justify-content: space-around; */
    height: 100%;
+}
+
+#education {
+   padding-left: 25px;
+   /* display: flex; */
 }
 
 #dp {
    border-radius: 20px;
-   margin-left: 17.5px;
+   margin-left: 10px;
 }
 
 #title-container {
-   margin-left: 20px;
+   margin-left: 10px; 
+   padding-left: 10px;
+   color: white;
 }
 
 #hello {
    font-family: Bradley Hand, cursive;
    font-size: 25px;
-
-}
-
-#title-container {
-   padding-left: 10px;
-}
-
-#title-container {
-   color: white;
 }
 
 .section {
