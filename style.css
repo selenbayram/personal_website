@@ -141,6 +141,10 @@ body {
    float: left;
 }
 
+.github-img {
+   padding-top: 10px;
+}
+
 .frc-img {
    padding-top: 10px;
 }
