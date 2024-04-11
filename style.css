@@ -117,6 +117,12 @@ body {
    margin: 0;
 }
 
+.experience-cmpy {
+   color: white;
+   min-width: 40%;
+   margin-left: 0;
+}
+
 .club-img {
    padding-right: 35px;
 }
@@ -150,11 +156,6 @@ body {
    padding-top: 10px;
 }
 
-.experience-cmpy {
-   color: white;
-   min-width: 40%;
-   margin-left: 0;
-}
 
 a {
    color: white;
