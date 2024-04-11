@@ -156,12 +156,3 @@ body {
 a {
    color: white;
 }
-
-#tetris {
-   padding: -40px;
-   margin-left: 0px;
-}
-
-#tetris-text {
-   margin-left: -160px;
-}
