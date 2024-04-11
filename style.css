@@ -151,6 +151,7 @@ body {
 
 .experience-cmpy {
    color: white;
+   min-width: 40%;
 }
 
 a {
