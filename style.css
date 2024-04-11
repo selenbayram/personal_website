@@ -114,6 +114,7 @@ body {
 
 .experience-img {
    padding-right: 35px;
+   margin: 0;
 }
 
 .club-img {
@@ -152,6 +153,7 @@ body {
 .experience-cmpy {
    color: white;
    min-width: 40%;
+   margin-left: 0;
 }
 
 a {
