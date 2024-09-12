@@ -156,7 +156,12 @@ body {
    padding-top: 10px;
 }
 
-
 a {
    color: white;
+}
+
+.date {
+   color: thistle;
+   font-size: 14px;
+   margin-bottom: 0.2rem;
 }
